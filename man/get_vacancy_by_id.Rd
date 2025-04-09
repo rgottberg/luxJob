@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_vacancy_by_id.R
 \name{get_vacancy_by_id}
 \alias{get_vacancy_by_id}
-\title{Title}
+\title{get_vacancy_by_id}
 \usage{
 get_vacancy_by_id(vacancy_id)
 }
 \arguments{
-\item{vacancy_id}{}
+\item{vacancy_id}{integer}
+}
+\value{
+list(vacancy, skills)
 }
 \description{
-Title
+Returns full vacancy info + required skills. Returns NULL if not found.
 }
 \examples{
 \dontrun{

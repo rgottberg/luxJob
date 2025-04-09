@@ -2,15 +2,20 @@
 % Please edit documentation in R/log_search.R
 \name{log_search}
 \alias{log_search}
-\title{Title}
+\title{log_search}
 \usage{
 log_search(user_id, query)
 }
 \arguments{
-\item{query}{}
+\item{user_id}{integer}
+
+\item{query}{character}
+}
+\value{
+TRUE/FALSE
 }
 \description{
-Title
+Logs a search query in adem.search_logs. Returns TRUE on success, FALSE otherwise.
 }
 \examples{
 \dontrun{

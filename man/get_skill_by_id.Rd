@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_skill_by_id.R
 \name{get_skill_by_id}
 \alias{get_skill_by_id}
-\title{Title}
+\title{get_skill_by_id}
 \usage{
 get_skill_by_id(skill_id)
 }
 \arguments{
-\item{skill_id}{}
+\item{skill_id}{character}
+}
+\value{
+data.frame with skill_id, skill_label
 }
 \description{
-Title
+Returns a single skill based on its ID.
 }
 \examples{
 \dontrun{

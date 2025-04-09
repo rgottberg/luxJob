@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_skills.R
 \name{get_skills}
 \alias{get_skills}
-\title{Title}
+\title{get_skills}
 \usage{
 get_skills(limit = 100)
 }
 \arguments{
-\item{limit}{}
+\item{limit}{integer}
+}
+\value{
+data.frame with skill_id, skill_label
 }
 \description{
-Title
+Returns all skills from adem.skills. Limited by limit.
 }
 \examples{
 \dontrun{

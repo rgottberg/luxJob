@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_books.R
 \name{get_books}
 \alias{get_books}
-\title{Title}
+\title{get_books}
 \usage{
 get_books(skill = NULL)
 }
 \arguments{
-\item{skill}{}
+\item{skill}{character (optional)}
+}
+\value{
+data.frame with book_id, title, author, skill_id (replaced by label)
 }
 \description{
-Title
+Returns all recommended books. Filter by skill if needed.
 }
 \examples{
 \dontrun{

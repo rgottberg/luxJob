@@ -2,15 +2,24 @@
 % Please edit documentation in R/get_vacancies.R
 \name{get_vacancies}
 \alias{get_vacancies}
-\title{Title}
+\title{get_vacancies}
 \usage{
 get_vacancies(skill = NULL, company = NULL, canton = NULL, limit = 100)
 }
 \arguments{
-\item{limit}{}
+\item{skill}{character}
+
+\item{company}{integer}
+
+\item{canton}{character}
+
+\item{limit}{integer}
+}
+\value{
+Returns data.frame with vacancy_id, company_id, occupation, canton, year, month
 }
 \description{
-Title
+Returns filtered list of job vacancies. You can combine filters.
 }
 \examples{
 \dontrun{

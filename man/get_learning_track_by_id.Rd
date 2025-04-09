@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_learning_track_by_id.R
 \name{get_learning_track_by_id}
 \alias{get_learning_track_by_id}
-\title{Title}
+\title{get_learning_track_by_id}
 \usage{
 get_learning_track_by_id(track_id)
 }
 \arguments{
-\item{track_id}{}
+\item{track_id}{integer}
+}
+\value{
+list(track, skills)
 }
 \description{
-Title
+Returns one learning track and all its linked skills. Returns NULL if not found.
 }
 \examples{
 \dontrun{

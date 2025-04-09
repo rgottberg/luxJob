@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_company_details.R
 \name{get_company_details}
 \alias{get_company_details}
-\title{Title}
+\title{get_company_details}
 \usage{
 get_company_details(company_id)
 }
 \arguments{
-\item{company_id}{}
+\item{company_id}{integer}
+}
+\value{
+list(company, vacancies)
 }
 \description{
-Title
+Returns company info and all its vacancies. Returns NULL if not found.
 }
 \examples{
 \dontrun{

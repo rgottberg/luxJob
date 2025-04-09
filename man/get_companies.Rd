@@ -2,15 +2,18 @@
 % Please edit documentation in R/get_companies.R
 \name{get_companies}
 \alias{get_companies}
-\title{Title}
+\title{get_companies}
 \usage{
 get_companies(limit = 100)
 }
 \arguments{
-\item{limit}{}
+\item{limit}{integer}
+}
+\value{
+data.frame with company_id, name, sector
 }
 \description{
-Title
+Returns all companies from adem.companies.
 }
 \examples{
 \dontrun{

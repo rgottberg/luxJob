@@ -7,13 +7,13 @@
 get_book_by_id(book_id)
 }
 \arguments{
-\item{book_id:}{integer}
+\item{book_id}{integer}
 }
 \value{
 data.frame with one row
 }
 \description{
-Returns a list of recommended books. You can filter them by skill (optional)
+Returns a list of recommended books.
 }
 \examples{
 \dontrun{
